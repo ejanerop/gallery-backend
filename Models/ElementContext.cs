@@ -4,7 +4,7 @@ namespace Gallery.Models
 {
     public class ElementContext : DbContext
     {
-        public TodoContext(DbContextOptions<ElementContext> options)
+        public ElementContext(DbContextOptions<ElementContext> options)
             : base(options)
         {
         }
