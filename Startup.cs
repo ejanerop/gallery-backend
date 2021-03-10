@@ -21,7 +21,7 @@ namespace gallery_backend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ElementContext>(opt =>
-                                               opt.UseInMemoryDatabase("ElementList"));
+                                               opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
         }
 

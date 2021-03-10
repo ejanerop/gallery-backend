@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-back\\gallery-backend\\gallery-backend.csproj": {}
+    "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-backend\\gallery-backend.csproj": {}
   },
   "projects": {
-    "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-back\\gallery-backend\\gallery-backend.csproj": {
+    "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-backend\\gallery-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-back\\gallery-backend\\gallery-backend.csproj",
+        "projectUniqueName": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-backend\\gallery-backend.csproj",
         "projectName": "gallery-backend",
-        "projectPath": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-back\\gallery-backend\\gallery-backend.csproj",
+        "projectPath": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-backend\\gallery-backend.csproj",
         "packagesPath": "C:\\Users\\eriC\\.nuget\\packages\\",
-        "outputPath": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-back\\gallery-backend\\obj\\",
+        "outputPath": "D:\\Eric\\Programación\\proyectos\\gallery\\gallery-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eriC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,9 +50,19 @@
               "target": "Package",
               "version": "[5.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

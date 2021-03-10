@@ -9,7 +9,7 @@ using Gallery.Models;
 
 namespace gallery_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Elements")]
     [ApiController]
     public class ElementsController : ControllerBase
     {
@@ -82,7 +82,11 @@ namespace gallery_backend.Controllers
             _context.Elements.Add(element);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetElement", new { id = element.Id }, element);
+            
+            //return CreatedAtAction("GetElement", new { id = element.Id }, element);
+
+            return CreatedAtAction(nameof(GetElement), new { id = element.Id }, element);
+
         }
 
         // DELETE: api/Elements/5
